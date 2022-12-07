@@ -98,6 +98,43 @@ nav ul li a:hover {
 .hamburger div:not(:last-child){
     margin-bottom: 5px;
 }
+/* Imo and Doumo*/
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+.content{
+    margin: 90px 0 0 0;
+    width: 40%;
+    
+}
+.More{
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--VeryDarkViolet);
+}
+.build{
+    color: var(--GrayishViolet);
+    font-size: 14px;
+}
+.get-started{
+    color: white;
+    background-color: var(--Cyan);
+    padding: 7px 20px;
+    border-radius: 25px;
+    width: 35%;
+    text-align: center;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    cursor: pointer;
+}
+.get-started:hover{
+    background-color: hsl(180, 66%, 55%);
+}
 
 /* HEADER RESPONSIVENESS: */
 
@@ -117,6 +154,57 @@ nav ul li a:hover {
 }
 
 /* Doumo and Imo Peter's Styling: */
+@media(max-width:1237px){
+    .content{
+        width: 40%;  
+        margin: 50px 0 0 0px;   
+   }
+   /* End of section by Imo Peter and Doumo Ngumezi */
+
+}
+@media (max-width: 1000px){
+    .content{
+        width: 47%;  
+        margin: 50px 0 0 0px;     
+    }
+    .get-started{
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 754px){
+    .content{
+        width: 90%;  
+        margin: 50px 0 0 0px;
+            
+    }
+    .get-started{
+        width: 40%;
+    }
+}
+@media (max-width: 522px){
+    .content{
+        margin: auto;
+        text-align: center;     
+    }
+    .get-started{
+        width: 60%;
+        margin: 30px auto;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .More{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .build{
+        font-size: 20px;
+    }  
+}
 
 
 /* End of Doumo and Imo Peter's Styling. */
