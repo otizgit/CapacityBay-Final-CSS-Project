@@ -120,3 +120,88 @@ nav ul li a:hover {
 
 
 /* End of Doumo and Imo Peter's Styling. */
+
+.advanced {
+    background-color: rgb(247, 239, 239);
+    height: 100vh;
+    width: 80%;
+    position: relative;
+    margin-top: 3%;
+    padding-top: 8%;
+    margin-left: 10%;
+    text-align: center;
+   
+}
+.head {
+    margin-bottom: 3%;
+}
+.head > p {
+    color: var(--GrayishViolet); 
+    line-height: 1.7em;
+    font-weight: 500;
+}
+.head > h1 {
+    color:  var(--VeryDarkViolet);
+}
+h1 {
+    margin-bottom: 2%;
+}
+.features {
+    position: relative;
+    display: flex;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+.box1 > p {
+    font-size: 14px;
+    color: var(--GrayishViolet);
+    line-height: 1.7em;
+}
+h3 {
+    margin-bottom: 4%;
+    font-size: large;
+    color: var(--VeryDarkViolet);
+}
+.box1 {
+    position: absolute;
+    background-color: white;
+    padding: 80px 25px 35px;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 2%;
+    
+}
+#img1 {
+    position: absolute;
+    background-color: var(--VeryDarkViolet);
+    border-radius: 50%;
+    padding: 18px;
+    top: -30px;
+}
+/* End of Nuel Chucks styling*/
+
+/* Nuel Container Responsiveness */
+@media  (max-width: 768px) {
+
+    .advanced {
+        right: 5%;
+        height: 1100px;
+        width: 690px;
+    }
+    .features {
+        display: block;
+        margin-top: 10%;
+        width: 100vw;
+       
+    }
+    .box1 {
+        margin-left: 28%;
+        padding: 80px 20px 35px;
+        text-align: center;
+       width: 300px;
+    }
+    #img1 {
+        margin-left: -9%;
+    }
+}
+/*End of Nuel Container Responsiveness */
