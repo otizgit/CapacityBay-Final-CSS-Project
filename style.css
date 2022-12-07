@@ -20,16 +20,19 @@
 }
 
 /* HEADER: */
-
-header {
+.row {
     width: 80%;
     margin: 0 auto;
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
     font-size: 14px;
 }
+
 
 .logo img {
     display: block;
@@ -112,3 +115,8 @@ nav ul li a:hover {
         display: none;
     }
 }
+
+/* Doumo and Imo Peter's Styling: */
+
+
+/* End of Doumo and Imo Peter's Styling. */
