@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --Cyan: hsl(180, 66%, 49%);
+    --DarkViolet: hsl(257, 27%, 26%);
+    --Red: hsl(0, 87%, 67%);
+    --Gray: hsl(0, 0%, 75%);
+    --GrayishViolet: hsl(257, 7%, 63%);
+    --VeryDarkBlue: hsl(255, 11%, 22%);
+    --VeryDarkViolet: hsl(260, 8%, 14%);
+}
+
+/* HEADER: */
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.logo img {
+    display: block;
+}
+
+.navigation {
+    display: flex;  
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: var(--GrayishViolet);
+    font-weight: 600;
+}
+nav ul li a:hover {
+    color: var(--DarkViolet);
+}
+
+.header-toggles {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 600;
+}
+.header-toggles div {
+    cursor: pointer;
+}
+
+.login {
+    color: var(--GrayishViolet);
+}
+
+.sign-up {
+    color: white;
+    background-color: var(--Cyan);
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+.sign-up:hover {
+    background-color: hsl(180, 66%, 55%);
+}
+
+.hamburger {
+    cursor: pointer;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+}
+
+.hamburger div {
+    height: 4px;
+    width: 100%;
+    background-color: var(--GrayishViolet);
+}
+.hamburger div:not(:last-child){
+    margin-bottom: 5px;
+}
+
+/* HEADER RESPONSIVENESS: */
+
+@media (max-width: 1000px){
+    header {
+        width: 90%;
+    }
+    .hamburger {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .header-toggles {
+        display: none;
+    }
+}
