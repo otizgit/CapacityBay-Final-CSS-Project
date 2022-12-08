@@ -121,6 +121,34 @@ nav ul li a:hover {
 
 /* End of Doumo and Imo Peter's Styling. */
 
+footer{
+    background: var(--VeryDarkBlue);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 30px 130px;
+}
+
+footer div h4{
+    color: #fff;
+}
+footer div ul li a{
+    color: var(--Gray);
+    font-size: 12px;
+}
+footer div ul li a:hover{
+    color: rgb(15, 185, 252);
+}
+
+/* Footer Responsiveness */
+
+
+@media (max-width: 1000px){
+    footer{
+        display: block;
+     }
+   
+}
+=======
 .advanced {
     background-color: rgb(247, 239, 239);
     height: 100vh;
