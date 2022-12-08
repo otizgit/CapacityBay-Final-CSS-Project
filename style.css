@@ -344,7 +344,102 @@ input:focus{
         }
     }
     /* End of James Obaji's Responsiveness to Section class=linkss */
+     /* css stylings done by Ebere Sunday Emmanuel */
+.linkss{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 14px;
+}
+.link{
+    background-color: rgb(241, 240, 240);
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.link-but{
+    display: flex;
+    justify-content: center;
+}
+.link-p{
+    word-break: break-all;
+    margin-top: 10px;
+}
 
+
+
+.link-copy{
+    cursor: pointer;
+    color: white;
+    background-color: var(--Cyan);
+    padding: 10px 20px;    
+    border-radius: 5px;
+    border: none;
+}
+.link-copy:hover{
+    background-color: hsl(180, 66%, 55%)
+}
+
+
+
+hr{
+    display: none;
+    margin: 10px 0;
+    
+}
+/*  LINK RESPONSIVENESS Done by Ebere sundy Ikechukwu */
+@media (max-width: 1200px){
+    .linkss{
+        width: 90%;
+    }
+}
+
+    
+@media (max-width:576px){      
+        
+        .link{
+            display: grid;
+        }
+        .link-but{
+            display: grid;
+            justify-content: left;
+        }
+        .link-copy{
+            padding: 10px 94%;
+            font-size: 4vw;
+            margin-top: 10px;
+            margin-left: none;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+           
+        }
+        
+        
+        .link-p{
+            font-size: 4vw;
+            text-align: left;
+        }
+        .p-link{
+            display: none;
+        }
+        hr{
+            display: block;
+            width: 100%;
+        }
+}
+@media (max-width:425px){   
+    .link-copy{
+        padding: 10px 90%;
+        font-size: 4vw;
+        margin-top: 10px;
+        margin-left: none;
+    }
+    
+}
+/* End Of css stylings done by Ebere Sunday Emmanuel */
 /* Doumo and Imo Peter's Styling: */
 
 
