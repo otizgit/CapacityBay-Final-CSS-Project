@@ -98,6 +98,22 @@ nav ul li a:hover {
 .hamburger div:not(:last-child){
     margin-bottom: 5px;
 }
+/* Imo */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+.illus{
+    margin: 70px 0 0 0;
+    width: 43%;
+}
+.illus img{
+    width: 100%;
+}
 
 /* HEADER RESPONSIVENESS: */
 
@@ -346,6 +362,18 @@ input:focus{
     /* End of James Obaji's Responsiveness to Section class=linkss */
 
 /* Doumo and Imo Peter's Styling: */
+
+/* Imo's Contribution for the responsiveness */
+@media (max-width: 522px){
+    .illus{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+}
 
 
 /* End of Doumo and Imo Peter's Styling. */
