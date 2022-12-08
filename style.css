@@ -115,6 +115,120 @@ nav ul li a:hover {
         display: none;
     }
 }
+.linkss{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 14px;
+}
+.link{
+    background-color: rgb(241, 240, 240);
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.link-but{
+    display: flex;
+    justify-content: center;
+}
+.link-p{
+    word-break: break-all;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.link-but p{
+    color: var(--Cyan);
+    align-items: center;
+}
+.link-copi{
+    cursor: pointer;
+    color: white;
+    background-color: var(--Cyan);
+    padding: 10px 20px;    
+    border-radius: 5px;
+    border: none;
+}
+.link-copi:hover{
+    background-color: hsl(180, 66%, 55%)
+}
+.link-copied{
+    color: white;
+    background-color: var(--DarkViolet);
+    padding: 10px 13px;    
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.link-copied:hover{
+    background-color: var(--Red);
+}
+hr{
+    display: none;
+    margin: 10px 0;
+    
+}
+/* SHORTEN LINK RESPONSIVENESS WRITTEN BY STEPHEN */
+@media (max-width: 1200px){
+    .linkss{
+    width: 90%;
+    }
+}
+@media (max-width:576px){
+    .links{
+        text-align: center;
+    }
+    .link{
+        display: grid;
+    }
+    .link-but{
+        display: grid;
+        justify-content: left;
+    }
+    .link-copi{
+        padding: 10px 100%;
+        font-size: 4vw;
+        margin-top: 10px;
+        margin-left: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .link-copied{
+        padding: 10px 92%;
+        font-size: 4vw;
+        margin-top: 10px;
+        margin-left: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .link-p{
+        font-size: 4vw;
+        text-align: left;
+    }
+    hr{
+        display: block;
+        width: 100%;
+    }
+}
+@media (max-width:425px){
+    .link-copi{
+        padding: 10px 96%;
+        font-size: 4vw;
+        margin-top: 10px;
+        margin-left: none;
+    }
+    .link-copied{
+        padding: 10px 89%;
+        font-size: 4vw;
+        margin-top: 10px;
+        margin-left: none;
+        border: none;
+    }
+}
+
 
 /* SHORTEN LINK SECTION STYLYING */
 
