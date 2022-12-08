@@ -116,6 +116,122 @@ nav ul li a:hover {
     }
 }
 
+/* SHORTEN LINK SECTION STYLYING */
+
+/* James Obaji's Contribution to section class=links */
+.linkss{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 14px;
+}
+.link-section{
+    background-image: url(./images/bg-shorten-desktop.svg);
+    background-size: cover;
+    background-color: var(--GrayishViolet);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shorten-it{
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: var(--Cyan);
+    padding: 7px 20px;
+    border-radius: 10px;
+    max-width: 1024px;
+    width: 20%;
+    height: 40px;
+    border: none;
+}
+.shorten-it:hover{
+    background-color: hsl(180, 66%, 55%)
+}
+input{
+padding: 10px;
+margin-right:10px;
+border-radius: 10px;
+width: 75%;
+border: solid var(--Red);
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: var(--Red);
+}
+.p-link{
+    color: var(--Red);
+    font-style: italic;
+    margin: 5px;
+}
+.p-link2{
+    color: var(--Red);
+    font-style: italic;
+    display: none;
+    margin: 5px;
+}
+/* End of James Obaji's section class=linkss styling contribution */
+
+/* Responsive of James Obaji's section class=linkss contribution */
+@media (max-width: 1200px){
+    .linkss{
+        width: 90%;
+    }
+    
+}
+@media (max-width: 768px){
+    input{
+        margin-right: 10px;
+        }
+        .shorten-it{
+            width: 20%;
+            height: 40px;
+            font-size: 2vw;
+        }
+        
+}
+@media (max-width:576px){
+    .link-section{
+        background-image: url(./images/bg-shorten-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    input{
+        width: 100%;
+        height: 50px;
+        }
+        .shorten-it{
+            width: 100%;
+            height: 50px;
+            font-size: 4vw;
+        }
+        .p-link{
+            display: none;
+        }
+        .p-link2{
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width:425px){
+        .link-section{
+            background-image: url(./images/bg-shorten-mobile.svg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .p-link{
+            display: none;
+        }
+    }
+    /* End of James Obaji's Responsiveness to Section class=linkss */
+=======
+
 /* Doumo and Imo Peter's Styling: */
 
 
