@@ -237,6 +237,52 @@ input:focus{
 
 /* End of Doumo and Imo Peter's Styling. */
 
+/* Yusuf and Ombimdike styling */
+
+footer{
+    background-color: var(--VeryDarkViolet);
+}
+
+.logo{
+    color: white;
+}
+.logo p{
+   font-size: 23px;
+   font-weight: bold;
+}
+ .soc-handles{
+    display: flex;
+    justify-content: space-between;
+    width:100px;
+    align-items: center;
+ 
+}
+
+.soc-handles ul{
+    display: flex;
+    margin-left: 50px;
+}
+.soc-handles ul li{
+   justify-content: space-around;
+   width: 50px;
+}
+
+.soc-handles a{
+   color: white;
+   font-size: 15px;
+}
+.soc-handles a:hover{
+   color:var(--Cyan);
+} 
+
+@media screen and (max-width:360px){
+    
+     .soc-handles ul{
+       display: none;
+    } 
+}
+/* End of Yusuf and Ombidike styling */
+=======
 footer{
     background: var(--VeryDarkBlue);
     display: grid;
