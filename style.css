@@ -640,14 +640,16 @@ h3 {
     justify-content: center;
     align-items: center;
     /*Background by Ayodele Praise */
-    background-image: url(/CapacityBay-Final-CSS-Project-1/images/bckgrnd.png);
+    background-image: url(./images/bg-boost-desktop.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: hsl(255, 11%, 22%);
+    padding-block: 20px;
+    margin-top: 60px;
 }
 .bottom p{
-    color: hite;
+    color: white;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -667,6 +669,7 @@ h3 {
 
 @media (max-width:1200px){
     .bottom{
+        background-image: url(./images/bg-boost-mobile.svg);
         display: flex;
         flex-direction: column;
         justify-content: center;
