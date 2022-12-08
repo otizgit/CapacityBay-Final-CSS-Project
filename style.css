@@ -538,12 +538,18 @@ h3 {
 }
 /*End of Nuel Container Responsiveness */
 
-/* Praise Ayodele and Akukwe Olivia's Styling. */
+/*Akukwe Olivia's Styling. */
 .bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*Background by Ayodele Praise */
+    background-image: url(/CapacityBay-Final-CSS-Project-1/images/bckgrnd.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(255, 11%, 22%);
 }
 .bottom p{
     color: hite;
@@ -571,9 +577,10 @@ h3 {
         justify-content: center;
         align-items: center;
         line-height: 10vh;
+        margin-top: 10px;
     }
     .bottom p{
-        color: hite;
+        color: white;
         font-size: 30px;
     }
     .bottom button{
