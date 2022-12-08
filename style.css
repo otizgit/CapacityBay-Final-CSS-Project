@@ -344,7 +344,6 @@ input:focus{
         }
     }
     /* End of James Obaji's Responsiveness to Section class=linkss */
-=======
 
 /* Doumo and Imo Peter's Styling: */
 
@@ -396,7 +395,7 @@ footer{
     } 
 }
 /* End of Yusuf and Ombidike styling */
-=======
+
 footer{
     background: var(--VeryDarkBlue);
     display: grid;
@@ -424,7 +423,8 @@ footer div ul li a:hover{
      }
    
 }
-=======
+
+/* Nuel Chuks' Styling: */
 .advanced {
     background-color: rgb(247, 239, 239);
     height: 100vh;
