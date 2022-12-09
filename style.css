@@ -108,8 +108,9 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 .illus{
-    margin: 70px 0 0 0;
+    margin: 70px 0 50px 0;
     width: 43%;
+    padding: 10px;
 }
 .illus img{
     width: 100%;
@@ -457,7 +458,117 @@ hr{
 }
 /* End Of css stylings done by Ebere Sunday Emmanuel */
 /* Doumo and Imo Peter's Styling: */
+/* Doumos section */
+.intro-sect1{
+    display: flex;
+    justify-content:space-between;
+}
+.content{
+    margin: 90px 0 0 130px;
+    width: 40%;
+    padding: 10px;
+}
+.More{
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--VeryDarkViolet);
+}
+.build{
+    color: var(--GrayishViolet);
+    font-size: 14px;
+}
+.get-started{
+    color: white;
+    background-color: var(--Cyan);
+    padding: 7px 20px;
+    border-radius: 25px;
+    width: 40%;
+    text-align: center;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    cursor: pointer;
+}
+.get-started:hover{
+    background-color: hsl(180, 66%, 55%);
+}
+/* Doumo's responsiveness */
+@media(max-width:1200px){
+    .intro-sect1{
+        width: 75%;
+        padding: 2px;
+    }
+    .More{
+        font-size: 40px;
+        /* font-weight: 800; */
+    }
+    .content{
+        margin-left: 102px;  
+    }
+   
+}
+@media (max-width: 1155px){
+    .get-started{
+        width: 50%;
+    }
+}
+@media (max-width: 1057px){
+    .More{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1000px){
+    .content{
+        width: 47%;  
+        margin-left: 90px;     
+    }
+    .get-started{
+        width: 50%;
+    }
+}
 
+@media (max-width: 850px){
+    .content{
+        width: 75%;  
+        margin-left: 75px;     
+    }
+    .illus{
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px){
+    .intro-sect1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .content{
+        margin: auto;
+        text-align: center;     
+    }
+    .get-started{
+        width: 60%;
+        margin: 30px auto;
+    }
+    .More{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .build{
+        font-size: 20px;
+    }
+    .illus{
+        width: 100%;
+    }  
+}
+@media (max-width: 522px){
+    .intro-sect1{
+        padding: 20px;
+    }
+}
+/* End of Doumos section */
 /* Imo's Contribution for the responsiveness */
 @media (max-width: 522px){
     .illus{
@@ -469,7 +580,6 @@ hr{
         flex-direction: column-reverse;
     }
 }
-
 
 /* End of Doumo and Imo Peter's Styling. */
 
