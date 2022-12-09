@@ -445,6 +445,9 @@ footer{
     width: 100%;
     
 }
+.foot-logo h2 a{
+    color: #fff;
+}
 .footer-section{ 
     display: flex;  
     margin-top: 30px;
@@ -494,7 +497,20 @@ footer{
 .footer-section ul li a:hover{
     color: var(--Cyan);
 }
-
+.soc-handles ul{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+}
+.soc-handles ul li a{
+    font-size: 20px;
+}
+.soc-handles ul li a:hover{
+    color: aqua;
+}
 
 /* Footer Responsiveness */
 
@@ -503,6 +519,15 @@ footer{
        display: block;
        text-align: center;
      }
+
+@media (max-width: 768px){
+  
+        footer {
+          grid-template-columns: 1fr;
+        }
+      
+}
+
 
      .logo img{
          display: block;
