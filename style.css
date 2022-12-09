@@ -499,12 +499,10 @@ hr{
     }
     .More{
         font-size: 40px;
-        /* font-weight: 800; */
     }
     .content{
         margin-left: 102px;  
     }
-   
 }
 @media (max-width: 1155px){
     .get-started{
@@ -566,6 +564,17 @@ hr{
 @media (max-width: 522px){
     .intro-sect1{
         padding: 20px;
+    }
+}
+@media (max-width: 425px){
+    .intro-sect1{
+        padding: 20px;
+    }
+    .content{
+        width: 100%;
+    }
+    .More{
+        font-size: 30px;
     }
 }
 /* End of Doumos section */
