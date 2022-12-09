@@ -583,7 +583,7 @@ hr{
 
 /* End of Doumo and Imo Peter's Styling. */
 
-/* Yusuf and Ombimdike styling */
+/* Yusuf and Ombimdike and James-L styling */
 
 footer{
     background-color: var(--VeryDarkViolet);
@@ -619,15 +619,18 @@ footer{
 }
 .soc-handles a:hover{
    color:var(--Cyan);
-} 
-
+}
+.socials-img{
+    display:flex;
+    justify-content:space-between;
+}
 @media screen and (max-width:360px){
     
      .soc-handles ul{
        display: none;
     } 
 }
-/* End of Yusuf and Ombidike styling */
+/* End of Yusuf and Ombidike styling and James-L */
 
 footer{
     background: var(--VeryDarkBlue);
