@@ -39,7 +39,7 @@ header {
 }
 
 .navigation {
-    display: flex;  
+    display: flex;
     align-items: center;
     gap: 40px;
 }
@@ -53,6 +53,7 @@ nav ul li a {
     color: var(--GrayishViolet);
     font-weight: 600;
 }
+
 nav ul li a:hover {
     color: var(--DarkViolet);
 }
@@ -63,6 +64,7 @@ nav ul li a:hover {
     gap: 25px;
     font-weight: 600;
 }
+
 .header-toggles div {
     cursor: pointer;
 }
@@ -77,6 +79,7 @@ nav ul li a:hover {
     padding: 7px 20px;
     border-radius: 20px;
 }
+
 .sign-up:hover {
     background-color: hsl(180, 66%, 55%);
 }
@@ -95,50 +98,60 @@ nav ul li a:hover {
     width: 100%;
     background-color: var(--GrayishViolet);
 }
-.hamburger div:not(:last-child){
+
+.hamburger div:not(:last-child) {
     margin-bottom: 5px;
 }
+
 /* Imo */
-.container{
+.container {
     display: flex;
     justify-content: space-between;
 }
+
 .row {
     width: 80%;
     margin: 0 auto;
 }
-.illus{
+
+.illus {
     margin: 70px 0 50px 0;
     width: 43%;
     padding: 10px;
 }
-.illus img{
+
+.illus img {
     width: 100%;
 }
 
 /* HEADER RESPONSIVENESS: */
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
     header {
         width: 90%;
     }
+
     .hamburger {
         display: block;
     }
+
     nav {
         display: none;
     }
+
     .header-toggles {
         display: none;
     }
 }
-.linkss{
+
+.linkss {
     width: 80%;
     margin: 0 auto;
     padding-top: 30px;
     font-size: 14px;
 }
-.link{
+
+.link {
     background-color: rgb(241, 240, 240);
     border-radius: 5px;
     margin: 10px 0;
@@ -146,64 +159,77 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
 }
-.link-but{
+
+.link-but {
     display: flex;
     justify-content: center;
 }
-.link-p{
+
+.link-p {
     word-break: break-all;
     margin-top: 10px;
     margin-right: 5px;
 }
-.link-but p{
+
+.link-but p {
     color: var(--Cyan);
     align-items: center;
 }
-.link-copi{
+
+.link-copi {
     cursor: pointer;
     color: white;
     background-color: var(--Cyan);
-    padding: 10px 20px;    
+    padding: 10px 20px;
     border-radius: 5px;
     border: none;
 }
-.link-copi:hover{
+
+.link-copi:hover {
     background-color: hsl(180, 66%, 55%)
 }
-.link-copied{
+
+.link-copied {
     color: white;
     background-color: var(--DarkViolet);
-    padding: 10px 13px;    
+    padding: 10px 13px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
 }
-.link-copied:hover{
+
+.link-copied:hover {
     background-color: var(--Red);
 }
-hr{
+
+hr {
     display: none;
     margin: 10px 0;
-    
+
 }
+
 /* SHORTEN LINK RESPONSIVENESS WRITTEN BY STEPHEN */
-@media (max-width: 1200px){
-    .linkss{
-    width: 90%;
+@media (max-width: 1200px) {
+    .linkss {
+        width: 90%;
     }
 }
-@media (max-width:576px){
-    .links{
+
+@media (max-width:576px) {
+    .links {
         text-align: center;
     }
-    .link{
+
+    .link {
         display: grid;
     }
-    .link-but{
+
+    .link-but {
         display: grid;
         justify-content: left;
     }
-    .link-copi{
+
+    .link-copi {
         padding: 10px 100%;
         font-size: 4vw;
         margin-top: 10px;
@@ -212,7 +238,8 @@ hr{
         justify-content: center;
         display: flex;
     }
-    .link-copied{
+
+    .link-copied {
         padding: 10px 92%;
         font-size: 4vw;
         margin-top: 10px;
@@ -221,23 +248,27 @@ hr{
         justify-content: center;
         display: flex;
     }
-    .link-p{
+
+    .link-p {
         font-size: 4vw;
         text-align: left;
     }
-    hr{
+
+    hr {
         display: block;
         width: 100%;
     }
 }
-@media (max-width:425px){
-    .link-copi{
+
+@media (max-width:425px) {
+    .link-copi {
         padding: 10px 96%;
         font-size: 4vw;
         margin-top: 10px;
         margin-left: none;
     }
-    .link-copied{
+
+    .link-copied {
         padding: 10px 89%;
         font-size: 4vw;
         margin-top: 10px;
@@ -250,13 +281,14 @@ hr{
 /* SHORTEN LINK SECTION STYLYING */
 
 /* James Obaji's Contribution to section class=links */
-.linkss{
+.linkss {
     width: 80%;
     margin: 0 auto;
     padding-top: 30px;
     font-size: 14px;
 }
-.link-section{
+
+.link-section {
     background-image: url(./images/bg-shorten-desktop.svg);
     background-size: cover;
     background-color: var(--GrayishViolet);
@@ -266,7 +298,7 @@ hr{
     flex-direction: column;
 }
 
-.shorten-it{
+.shorten-it {
     cursor: pointer;
     color: white;
     text-align: center;
@@ -279,96 +311,113 @@ hr{
     height: 40px;
     border: none;
 }
-.shorten-it:hover{
+
+.shorten-it:hover {
     background-color: hsl(180, 66%, 55%)
 }
-input{
-padding: 10px;
-margin-right:10px;
-border-radius: 10px;
-width: 75%;
-border: solid var(--Red);
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 75%;
+    border: solid var(--Red);
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
-::placeholder{
+
+::placeholder {
     color: var(--Red);
 }
-.p-link{
+
+.p-link {
     color: var(--Red);
     font-style: italic;
     margin: 5px;
 }
-.p-link2{
+
+.p-link2 {
     color: var(--Red);
     font-style: italic;
     display: none;
     margin: 5px;
 }
+
 /* End of James Obaji's section class=linkss styling contribution */
 
 /* Responsive of James Obaji's section class=linkss contribution */
-@media (max-width: 1200px){
-    .linkss{
+@media (max-width: 1200px) {
+    .linkss {
         width: 90%;
     }
-    
+
 }
-@media (max-width: 768px){
-    input{
+
+@media (max-width: 768px) {
+    input {
         margin-right: 10px;
-        }
-        .shorten-it{
-            width: 20%;
-            height: 40px;
-            font-size: 2vw;
-        }
-        
+    }
+
+    .shorten-it {
+        width: 20%;
+        height: 40px;
+        font-size: 2vw;
+    }
+
 }
-@media (max-width:576px){
-    .link-section{
+
+@media (max-width:576px) {
+    .link-section {
         background-image: url(./images/bg-shorten-mobile.svg);
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    input{
+
+    input {
         width: 100%;
         height: 50px;
-        }
-        .shorten-it{
-            width: 100%;
-            height: 50px;
-            font-size: 4vw;
-        }
-        .p-link{
-            display: none;
-        }
-        .p-link2{
-            display: block;
-            margin-bottom: 20px;
-        }
     }
-    
-    @media (max-width:425px){
-        .link-section{
-            background-image: url(./images/bg-shorten-mobile.svg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-        }
-        .p-link{
-            display: none;
-        }
+
+    .shorten-it {
+        width: 100%;
+        height: 50px;
+        font-size: 4vw;
     }
-    /* End of James Obaji's Responsiveness to Section class=linkss */
-     /* css stylings done by Ebere Sunday Emmanuel */
-.linkss{
+
+    .p-link {
+        display: none;
+    }
+
+    .p-link2 {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:425px) {
+    .link-section {
+        background-image: url(./images/bg-shorten-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .p-link {
+        display: none;
+    }
+}
+
+/* End of James Obaji's Responsiveness to Section class=linkss */
+/* css stylings done by Ebere Sunday Emmanuel */
+.linkss {
     width: 80%;
     margin: 0 auto;
     padding-top: 30px;
     font-size: 14px;
 }
-.link{
+
+.link {
     background-color: rgb(241, 240, 240);
     border-radius: 5px;
     margin: 10px 0;
@@ -376,108 +425,122 @@ input:focus{
     display: flex;
     justify-content: space-between;
 }
-.link-but{
+
+.link-but {
     display: flex;
     justify-content: center;
 }
-.link-p{
+
+.link-p {
     word-break: break-all;
     margin-top: 10px;
 }
 
 
 
-.link-copy{
+.link-copy {
     cursor: pointer;
     color: white;
     background-color: var(--Cyan);
-    padding: 10px 20px;    
+    padding: 10px 20px;
     border-radius: 5px;
     border: none;
 }
-.link-copy:hover{
+
+.link-copy:hover {
     background-color: hsl(180, 66%, 55%)
 }
 
 
 
-hr{
+hr {
     display: none;
     margin: 10px 0;
-    
+
 }
+
 /*  LINK RESPONSIVENESS Done by Ebere sundy Ikechukwu */
-@media (max-width: 1200px){
-    .linkss{
+@media (max-width: 1200px) {
+    .linkss {
         width: 90%;
     }
 }
 
-    
-@media (max-width:576px){      
-        
-        .link{
-            display: grid;
-        }
-        .link-but{
-            display: grid;
-            justify-content: left;
-        }
-        .link-copy{
-            padding: 10px 94%;
-            font-size: 4vw;
-            margin-top: 10px;
-            margin-left: none;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-           
-        }
-        
-        
-        .link-p{
-            font-size: 4vw;
-            text-align: left;
-        }
-        .p-link{
-            display: none;
-        }
-        hr{
-            display: block;
-            width: 100%;
-        }
+
+@media (max-width:576px) {
+
+    .link {
+        display: grid;
+    }
+
+    .link-but {
+        display: grid;
+        justify-content: left;
+    }
+
+    .link-copy {
+        padding: 10px 94%;
+        font-size: 4vw;
+        margin-top: 10px;
+        margin-left: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+
+    .link-p {
+        font-size: 4vw;
+        text-align: left;
+    }
+
+    .p-link {
+        display: none;
+    }
+
+    hr {
+        display: block;
+        width: 100%;
+    }
 }
-@media (max-width:425px){   
-    .link-copy{
+
+@media (max-width:425px) {
+    .link-copy {
         padding: 10px 90%;
         font-size: 4vw;
         margin-top: 10px;
         margin-left: none;
     }
-    
+
 }
+
 /* End Of css stylings done by Ebere Sunday Emmanuel */
 /* Doumo and Imo Peter's Styling: */
 /* Doumos section */
-.intro-sect1{
+.intro-sect1 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.content{
+
+.content {
     margin: 90px 0 0 130px;
     width: 40%;
     padding: 10px;
 }
-.More{
+
+.More {
     font-size: 50px;
     font-weight: 800;
     color: var(--VeryDarkViolet);
 }
-.build{
+
+.build {
     color: var(--GrayishViolet);
     font-size: 14px;
 }
-.get-started{
+
+.get-started {
     color: white;
     background-color: var(--Cyan);
     padding: 7px 20px;
@@ -488,93 +551,110 @@ hr{
     margin-block-end: 10px;
     cursor: pointer;
 }
-.get-started:hover{
+
+.get-started:hover {
     background-color: hsl(180, 66%, 55%);
 }
+
 /* Doumo's responsiveness */
-@media(max-width:1200px){
-    .intro-sect1{
+@media(max-width:1200px) {
+    .intro-sect1 {
         width: 75%;
         padding: 2px;
     }
-    .More{
+
+    .More {
         font-size: 40px;
         /* font-weight: 800; */
     }
-    .content{
-        margin-left: 102px;  
+
+    .content {
+        margin-left: 102px;
     }
-   
+
 }
-@media (max-width: 1155px){
-    .get-started{
-        width: 50%;
-    }
-}
-@media (max-width: 1057px){
-    .More{
-        font-size: 30px;
-    }
-}
-@media (max-width: 1000px){
-    .content{
-        width: 47%;  
-        margin-left: 90px;     
-    }
-    .get-started{
+
+@media (max-width: 1155px) {
+    .get-started {
         width: 50%;
     }
 }
 
-@media (max-width: 850px){
-    .content{
-        width: 75%;  
-        margin-left: 75px;     
+@media (max-width: 1057px) {
+    .More {
+        font-size: 30px;
     }
-    .illus{
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 47%;
+        margin-left: 90px;
+    }
+
+    .get-started {
+        width: 50%;
+    }
+}
+
+@media (max-width: 850px) {
+    .content {
+        width: 75%;
+        margin-left: 75px;
+    }
+
+    .illus {
         width: 70%;
     }
 }
 
-@media (max-width: 768px){
-    .intro-sect1{
+@media (max-width: 768px) {
+    .intro-sect1 {
         display: flex;
         justify-content: space-between;
         flex-direction: column-reverse;
         margin: 0 auto;
         padding: 10px;
     }
-    .content{
+
+    .content {
         margin: auto;
-        text-align: center;     
+        text-align: center;
     }
-    .get-started{
+
+    .get-started {
         width: 60%;
         margin: 30px auto;
     }
-    .More{
+
+    .More {
         font-size: 40px;
         font-weight: 700;
     }
-    .build{
+
+    .build {
         font-size: 20px;
     }
-    .illus{
+
+    .illus {
         width: 100%;
-    }  
+    }
 }
-@media (max-width: 522px){
-    .intro-sect1{
+
+@media (max-width: 522px) {
+    .intro-sect1 {
         padding: 20px;
     }
 }
+
 /* End of Doumos section */
 /* Imo's Contribution for the responsiveness */
-@media (max-width: 522px){
-    .illus{
+@media (max-width: 522px) {
+    .illus {
         width: 100%;
     }
-    .container{
+
+    .container {
         display: flex;
         justify-content: space-between;
         flex-direction: column-reverse;
@@ -584,94 +664,128 @@ hr{
 /* End of Doumo and Imo Peter's Styling. */
 
 
-/* Nuel Chuks' Styling: */
+/* Nuel, Nath Styling: */
 .advanced {
-    background-color: rgb(247, 239, 239);
+    background-color: rgb(252, 247, 247);
     height: 100vh;
     width: 80%;
+    margin: 0 auto;
     position: relative;
-    margin-top: 3%;
-    padding-top: 8%;
-    margin-left: 10%;
+    padding: 50px 0;
     text-align: center;
-   
-}
+    }
+
 .head {
     margin-bottom: 3%;
 }
-.head > p {
-    color: var(--GrayishViolet); 
+
+.head>p {
+    color: var(--GrayishViolet);
     line-height: 1.7em;
     font-weight: 500;
 }
-.head > h1 {
-    color:  var(--VeryDarkViolet);
+
+.head>h1 {
+    color: var(--VeryDarkViolet);
 }
+
 h1 {
     margin-bottom: 2%;
 }
+
 .features {
+    width: 80%;
     position: relative;
     display: flex;
-    margin-left: 3%;
-    margin-top: 7%;
+   gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% auto;
+    height: 65%;
+    
 }
-.box1 > p {
+
+.box1 {
+    position: relative;
+    text-align: left;
+    background-color: white;
+    padding: 80px 25px 35px;
+    border-radius: 10px;
+    width: 60%;
+   
+}
+.box1:nth-of-type(2) {
+    top: 60px;
+}
+
+.box1:nth-of-type(3) {
+    top: 100px;
+}
+
+.box1>p {
     font-size: 14px;
     color: var(--GrayishViolet);
-    line-height: 1.7em;
+    line-height: 1.5em;
 }
+
 h3 {
     margin-bottom: 4%;
     font-size: large;
     color: var(--VeryDarkViolet);
 }
-.box1 {
-    position: absolute;
-    background-color: white;
-    padding: 80px 25px 35px;
-    text-align: justify;
-    border-radius: 10px;
-    margin-left: 2%;
-    
-}
+
 #img1 {
     position: absolute;
     background-color: var(--VeryDarkViolet);
     border-radius: 50%;
     padding: 18px;
-    top: -30px;
+    top: 0;
 }
-/* End of Nuel Chucks styling*/
+
 
 /* Nuel Container Responsiveness */
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
 
     .advanced {
-        right: 5%;
-        height: 1100px;
-        width: 690px;
-    }
+        height: 100%;
+        width: 100%;
+        }
+
     .features {
-        display: block;
+        flex-direction: column;
         margin-top: 10%;
-        width: 100vw;
-       
+        height: 100%;
+        gap: 70px;
     }
+
     .box1 {
-        margin-left: 28%;
+        width: 60%;
         padding: 80px 20px 35px;
         text-align: center;
-       width: 300px;
     }
+
+    .box1:nth-of-type(2),
+    .box1:nth-of-type(3) {
+        top: 0;
+    }
+
     #img1 {
-        margin-left: -9%;
+        top: -35px;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 }
-/*End of Nuel Container Responsiveness */
+@media(max-width: 568px){
+    .box1{
+        width: 80%;
+    }
+}
+
+/* End of Nuel, Nath styling*/
 
 /*Akukwe Olivia's Styling. */
-.bottom{
+.bottom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -685,12 +799,14 @@ h3 {
     padding-block: 20px;
     margin-top: 60px;
 }
-.bottom p{
+
+.bottom p {
     color: white;
     font-size: 30px;
     margin-bottom: 20px;
 }
-.bottom button{
+
+.bottom button {
     width: 14%;
     background-color: var(--Cyan);
     border-radius: 30px;
@@ -700,12 +816,13 @@ h3 {
     border: none;
     cursor: pointer;
 }
-.bottom button:hover{
+
+.bottom button:hover {
     background-color: rgb(143, 235, 235);
 }
 
-@media (max-width:1200px){
-    .bottom{
+@media (max-width:1200px) {
+    .bottom {
         background-image: url(./images/bg-boost-mobile.svg);
         display: flex;
         flex-direction: column;
@@ -714,11 +831,13 @@ h3 {
         line-height: 10vh;
         margin-top: 10px;
     }
-    .bottom p{
+
+    .bottom p {
         color: white;
         font-size: 30px;
     }
-    .bottom button{
+
+    .bottom button {
         width: 30%;
         padding-block: 10px;
         border-radius: 30px;
@@ -733,81 +852,91 @@ h3 {
         display: flex;
     }
 }
+
 /* End of Praise Ayodele and Akukwe Olivia's Styling */
 
 /* Yusuf and Ombimdike and James-L styling */
 
-footer{
+footer {
     background-color: var(--VeryDarkViolet);
 }
 
-.logo{
+.logo {
     color: white;
 }
-.logo h1{
-   font-size: 23px;
-   font-weight: bold;
-}
- .soc-handles{
-    display: flex;
-    justify-content: space-between;
-    width:100px;
-    align-items: center;
- 
+
+.logo h1 {
+    font-size: 23px;
+    font-weight: bold;
 }
 
-.soc-handles ul{
+.soc-handles {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+
+}
+
+.soc-handles ul {
     display: flex;
     margin-left: 50px;
 }
-.soc-handles ul li{
-   justify-content: space-around;
-   width: 50px;
+
+.soc-handles ul li {
+    justify-content: space-around;
+    width: 50px;
 }
 
-.soc-handles a{
-   color: white;
-   font-size: 15px;
+.soc-handles a {
+    color: white;
+    font-size: 15px;
 }
-.soc-handles a:hover{
-   color:var(--Cyan);
+
+.soc-handles a:hover {
+    color: var(--Cyan);
 }
-.socials-img{
-    display:flex;
-    justify-content:space-between;
+
+.socials-img {
+    display: flex;
+    justify-content: space-between;
 }
-@media screen and (max-width:360px){
-    
-     .soc-handles ul{
-       display: none;
-    } 
+
+@media screen and (max-width:360px) {
+
+    .soc-handles ul {
+        display: none;
+    }
 }
+
 /* End of Yusuf and Ombidike styling and James-L */
 
-footer{
+footer {
     background: var(--VeryDarkBlue);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 30px 130px;
 }
 
-footer div h4{
+footer div h4 {
     color: #fff;
 }
-footer div ul li a{
+
+footer div ul li a {
     color: var(--Gray);
     font-size: 12px;
 }
-footer div ul li a:hover{
+
+footer div ul li a:hover {
     color: rgb(15, 185, 252);
 }
 
 /* Footer Responsiveness */
 
 
-@media (max-width: 1000px){
-    footer{
+@media (max-width: 1000px) {
+    footer {
         display: block;
-     }
-   
+    }
+
 }
