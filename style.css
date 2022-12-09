@@ -158,16 +158,15 @@ footer div ul li a:hover{
 /* Footer Responsiveness */
 
 
-@media (max-width: 1000px){
-    footer{
-        display: block;
-     }
-     .soc-handles ul{
-        justify-content: left;
-     }
-   
+@media (max-width: 768px){
+  
+        footer {
+          grid-template-columns: 1fr;
+        }
+      
 }
-=======
+
+
 .advanced {
     background-color: rgb(247, 239, 239);
     height: 100vh;
