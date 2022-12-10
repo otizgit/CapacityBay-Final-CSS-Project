@@ -354,56 +354,95 @@ input:focus{
 
 footer{
     background-color: var(--VeryDarkViolet);
+    
 }
 
-.logo{
+/* .logo{
     color: white;
 }
 .logo p{
    font-size: 23px;
    font-weight: bold;
-}
- .soc-handles{
+} */
+ /* .soc-handles{
     display: flex;
     justify-content: space-between;
     width:100px;
     align-items: center;
  
+} */
+/* Fareed styling */
+.footer-section{ 
+    display: flex;  
+    margin-top: 30px;
 }
 
-.soc-handles ul{
-    display: flex;
+.logo{
+    margin-top: 50px;
+    color: white;
+}
+.footer-section ul{ 
+    justify-content: space-between;
+    width: 200px;
     margin-left: 50px;
-}
-.soc-handles ul li{
-   justify-content: space-around;
-   width: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
 }
 
-.soc-handles a{
-   color: white;
-   font-size: 15px;
+.footer-section ul li{
+    list-style: none;
 }
-.soc-handles a:hover{
-   color:var(--Cyan);
-} 
+   
+.footer-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-section ul li a:hover{
+    color: var(--Cyan);
+}
 
-@media screen and (max-width:360px){
+
+/* Footer Responsiveness */
+  
+@media screen and (max-width:768px){
+     .footer-section{
+       display: block;
+       text-align: center;
+     }
+
+     .logo img{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 30%;
+     }
+     .footer-section ul{
+         margin-left: 33%;
+     }
+
+     footer{
+        width: 100%;
+     }
+}
+   
+
+
+/* @media screen and (max-width:360px){
     
      .soc-handles ul{
-       display: none;
-    } 
-}
+       display: none; */
+    
+
 /* End of Yusuf and Ombidike styling */
 
-footer{
+/* footer{
     background: var(--VeryDarkBlue);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 30px 130px;
-}
+} */
 
-footer div h4{
+/* footer div h4{
     color: #fff;
 }
 footer div ul li a{
@@ -412,17 +451,17 @@ footer div ul li a{
 }
 footer div ul li a:hover{
     color: rgb(15, 185, 252);
-}
-
-/* Footer Responsiveness */
+} */
 
 
-@media (max-width: 1000px){
+
+
+/* @media (max-width: 1000px){
     footer{
         display: block;
      }
    
-}
+} */
 
 /* Nuel Chuks' Styling: */
 .advanced {
