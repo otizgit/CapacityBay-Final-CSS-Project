@@ -98,6 +98,23 @@ nav ul li a:hover {
 .hamburger div:not(:last-child){
     margin-bottom: 5px;
 }
+/* Imo */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+.illus{
+    margin: 70px 0 50px 0;
+    width: 43%;
+    padding: 10px;
+}
+.illus img{
+    width: 100%;
+}
 
 /* HEADER RESPONSIVENESS: */
 
@@ -344,16 +361,12 @@ input:focus{
         }
     }
     /* End of James Obaji's Responsiveness to Section class=linkss */
-
-/* Doumo and Imo Peter's Styling: */
-
-
-/* End of Doumo and Imo Peter's Styling. */
-
-/* Yusuf and Ombimdike styling */
-
-footer{
-    background-color: var(--VeryDarkViolet);
+     /* css stylings done by Ebere Sunday Emmanuel */
+.linkss{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 14px;
     
 }
 
@@ -413,6 +426,9 @@ footer{
    
 
 /* End of Yusuf and Ombidike styling */
+
+
+/* End of Doumo and Imo Peter's Styling. */
 
 
 /* Nuel Chuks' Styling: */
@@ -501,15 +517,23 @@ h3 {
 }
 /*End of Nuel Container Responsiveness */
 
-/* Praise Ayodele and Akukwe Olivia's Styling. */
+/*Akukwe Olivia's Styling. */
 .bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*Background by Ayodele Praise */
+    background-image: url(./images/bg-boost-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(255, 11%, 22%);
+    padding-block: 20px;
+    margin-top: 60px;
 }
 .bottom p{
-    color: hite;
+    color: white;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -529,14 +553,16 @@ h3 {
 
 @media (max-width:1200px){
     .bottom{
+        background-image: url(./images/bg-boost-mobile.svg);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         line-height: 10vh;
+        margin-top: 10px;
     }
     .bottom p{
-        color: hite;
+        color: white;
         font-size: 30px;
     }
     .bottom button{
@@ -555,3 +581,80 @@ h3 {
     }
 }
 /* End of Praise Ayodele and Akukwe Olivia's Styling */
+
+/* Yusuf and Ombimdike and James-L styling */
+
+footer{
+    background-color: var(--VeryDarkViolet);
+}
+
+.logo{
+    color: white;
+}
+.logo h1{
+   font-size: 23px;
+   font-weight: bold;
+}
+ .soc-handles{
+    display: flex;
+    justify-content: space-between;
+    width:100px;
+    align-items: center;
+ 
+}
+
+.soc-handles ul{
+    display: flex;
+    margin-left: 50px;
+}
+.soc-handles ul li{
+   justify-content: space-around;
+   width: 50px;
+}
+
+.soc-handles a{
+   color: white;
+   font-size: 15px;
+}
+.soc-handles a:hover{
+   color:var(--Cyan);
+}
+.socials-img{
+    display:flex;
+    justify-content:space-between;
+}
+@media screen and (max-width:360px){
+    
+     .soc-handles ul{
+       display: none;
+    } 
+}
+/* End of Yusuf and Ombidike styling and James-L */
+
+footer{
+    background: var(--VeryDarkBlue);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 30px 130px;
+}
+
+footer div h4{
+    color: #fff;
+}
+footer div ul li a{
+    color: var(--Gray);
+    font-size: 12px;
+}
+footer div ul li a:hover{
+    color: rgb(15, 185, 252);
+}
+
+/* Footer Responsiveness */
+
+
+@media (max-width: 1000px){
+    footer{
+        display: block;
+     }
+   
+}
