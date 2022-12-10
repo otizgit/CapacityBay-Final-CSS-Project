@@ -371,9 +371,21 @@ input:focus{
 }
 
 /* Fareed styling */
+
+footer{
+    background-color: var(--VeryDarkViolet);
+    margin-top: 30px;
+    width: 100%;
+    
+}
 .footer-section{ 
     display: flex;  
     margin-top: 30px;
+}
+
+#head{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .logo{
@@ -390,11 +402,15 @@ input:focus{
 
 .footer-section ul li{
     list-style: none;
+    margin-top: 10px;
 }
    
 .footer-section ul li a{
     text-decoration: none;
     color: white;
+    font-size: 15px;
+    
+    
 }
 .footer-section ul li a:hover{
     color: var(--Cyan);
@@ -418,9 +434,9 @@ input:focus{
      .footer-section ul{
          margin-left: 33%;
      }
-
+     
      footer{
-        width: 100%;
+        width: 100vh;
      }
 }
    
