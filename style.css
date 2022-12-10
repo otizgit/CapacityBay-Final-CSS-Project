@@ -357,20 +357,6 @@ footer{
     
 }
 
-/* .logo{
-    color: white;
-}
-.logo p{
-   font-size: 23px;
-   font-weight: bold;
-} */
- /* .soc-handles{
-    display: flex;
-    justify-content: space-between;
-    width:100px;
-    align-items: center;
- 
-} */
 /* Fareed styling */
 .footer-section{ 
     display: flex;  
@@ -403,7 +389,7 @@ footer{
 
 
 /* Footer Responsiveness */
-  
+
 @media screen and (max-width:768px){
      .footer-section{
        display: block;
@@ -426,42 +412,8 @@ footer{
 }
    
 
-
-/* @media screen and (max-width:360px){
-    
-     .soc-handles ul{
-       display: none; */
-    
-
 /* End of Yusuf and Ombidike styling */
 
-/* footer{
-    background: var(--VeryDarkBlue);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 30px 130px;
-} */
-
-/* footer div h4{
-    color: #fff;
-}
-footer div ul li a{
-    color: var(--Gray);
-    font-size: 12px;
-}
-footer div ul li a:hover{
-    color: rgb(15, 185, 252);
-} */
-
-
-
-
-/* @media (max-width: 1000px){
-    footer{
-        display: block;
-     }
-   
-} */
 
 /* Nuel Chuks' Styling: */
 .advanced {
