@@ -850,3 +850,39 @@ h3 {
 
 /* End of Praise Ayodele and Akukwe Olivia's Styling */
 
+/* obimdike footer styling */
+
+footer{
+    background: var(--VeryDarkBlue);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 30px 130px;
+}
+.foot-logo h2 a{
+    color: #fff;
+}
+footer div h4{
+    color: #fff;
+}
+footer div ul li a{
+    color: var(--Gray);
+    font-size: 12px;
+}
+footer div ul li a:hover{
+    color: rgb(15, 185, 252);
+}
+.soc-handles ul{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+}
+.soc-handles ul li a{
+    font-size: 20px;
+}
+.soc-handles ul li a:hover{
+    color: aqua;
+}
+
