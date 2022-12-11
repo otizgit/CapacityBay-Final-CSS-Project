@@ -850,6 +850,7 @@ h3 {
 
 /* End of Praise Ayodele and Akukwe Olivia's Styling */
 
+/* Obimdike and Fareed styling */
 /* obimdike footer styling */
 
 footer{
@@ -858,7 +859,7 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 30px 130px;
 }
-.foot-logo h2 a{
+.foot-logo h1 a{
     color: #fff;
 }
 footer div h4{
@@ -885,4 +886,18 @@ footer div ul li a:hover{
 .soc-handles ul li a:hover{
     color: aqua;
 }
+
+/* footer responsiveness */
+/* Fareed styling */
+@media screen and (max-width: 828px){
+    footer{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .foot-logo{
+        margin-bottom: 30px;
+    }
+}
+/* End of Obimdike and Fareed styling */
 
