@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+main {
+    overflow-x: hidden;
+}
+
 :root {
     --Cyan: hsl(180, 66%, 49%);
     --DarkViolet: hsl(257, 27%, 26%);
